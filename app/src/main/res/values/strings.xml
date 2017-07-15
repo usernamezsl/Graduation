@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">知猿</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="cheese_ipsum">Info</string>
+    <string name="text_content">
+          Amanmay usually be known by the books he reads as well as by the company he keeps; for there is a companionship of books as well as of men; and one should always live in the best company, whether it be of books or of men.
+  A good book may be among the best of friends. It is the same today that it always was, and it will never change. It is the most patient and cheerful of companions. It does not turn its back upon us in times of adversity or distress. It always receives us with the same kindness; amusing and instructing us in youth, and comforting and consoling us in age.
+  Men often discover their affinity to each other by the mutual love they have for a book just as two persons sometimes discover a friend by the admiration which both entertain for a third. There is an old proverb, ‘Love me, love my dog.” But there is more wisdom in this:” Love me, love my book.” The book is a truer and higher bond of union. Men can think, feel, and sympathize with each other through their favorite author. They live in him together, and he in them.
+  A good book is often the best urn of a life enshrining the best that life could think out; for the world of a man’s life is, for the most part, but the world of his thoughts. Thus the best books are treasuries of good words, the golden thoughts, which, remembered and cherished, become our constant companions and comforters
+  Books possess an essence of immortality. They are by far the most lasting products of human effort. Temples and statues decay, but books survive. Time is of no account with great thoughts, which are as fresh today as when they first passed through their author’s minds, ages ago. What was then said and thought still speaks to us as vividly as ever from the printed page. The only effect of time have been to sift out the bad products; for nothing in literature can long survive e but what is really good.
+  Books introduce us into the best society; they bring us into the presence of the greatest minds that have ever lived. We hear what they said and did; we see the as if they were really alive; we sympathize with them, enjoy with them, grieve with them; their experience becomes ours, and we feel as if we were in a measure actors with them in the scenes which they describe.
+  The great and good do not die, even in this world. Embalmed in books, their spirits walk abroad. The book is a living voice. It is an intellect to which on still listens.
+    </string>
+    <string name="title">如何找到女朋友</string>
+    <string name="large_text">
+        假如生活欺骗了你 假如生活欺骗了你，不要悲伤，不要心急！
+        忧郁的日子里须要镇静：相信吧，快乐的日子将会来临！心儿永远向往着未来；
+        现在却常是忧郁。一切都是瞬息，一切都将会过去；而那过去了的，就会成为亲切的怀恋。
+    </string>
+    <string name="live_title">世间所有的相遇,都是久别重逢</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="about_project">
+        项目简介:\知猿APP,一个纯粹的毕业设计App\n为了熟悉当前Android端主流框架的使用,也为了能有一款将新闻、技术文章、福利一网打尽的简洁的阅读应用与社交应用,利用闲暇时间做了这个项目n(*≧▽≦*)n\n
+        本着学习的目的,该项目会持续迭代与优化,加入更丰富的阅读内容与功能,并不断尝试最新的技术,欢迎star、fork、issue、email
+    </string>
+    <string name="about_addr">作者:张少林\t\t(codeest.dev@gmail.com)</string>
+    <string name="about_award">请作者吃糖(￣▽￣)</string>
+    <string name="about_info">ZhiYuan\t\t\tV1.2.0</string>
+</resources>

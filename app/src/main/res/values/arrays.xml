@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>http://a.hiphotos.baidu.com/image/h%3D360/sign=78400e9533adcbef1e3478009cae2e0e/cdbf6c81800a19d814dcb35431fa828ba71e4687.jpg</item>
+        <item>http://e.hiphotos.baidu.com/image/h%3D360/sign=2c790c7ff9f2b211fb2e8348fa806511/bd315c6034a85edfb1f0942f4b540923dd5475b9.jpg</item>
+        <item>http://c.hiphotos.baidu.com/image/h%3D360/sign=ee04d4cee4cd7b89f66c3c853f244291/1e30e924b899a901760b8f321f950a7b0208f5fc.jpg</item>
+        <item>http://c.hiphotos.baidu.com/image/h%3D360/sign=2bf4c65457fbb2fb2b2b5e147f4a2043/a044ad345982b2b7a2b8f7cd33adcbef76099b90.jpg</item>
+        <item>http://e.hiphotos.baidu.com/image/h%3D360/sign=9a66dab99c510fb367197191e932c893/b999a9014c086e06613eab4b00087bf40ad1cb18.jpg</item>
+    </array>
+</resources>

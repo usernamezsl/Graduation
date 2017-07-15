@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1.高度设置actionBar的高度
+    2.背景色设为colorPrimary
+    3.将toolbar的主题单独设为深色
+    4.弹出的菜单项指定为淡色主题
+-->
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/searchmenu"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/nav_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/center_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/nav_right_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+</android.support.v7.widget.Toolbar>

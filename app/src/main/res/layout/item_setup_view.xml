@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/booking_history"
+        style="@style/top_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_setup"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_setup"
+            style="@style/usertext"
+            android:layout_marginLeft="8dp"
+            android:text="清理缓存"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/black"/>
+</LinearLayout>

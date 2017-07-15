@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:background="@color/gray">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        android:paddingBottom="55dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_colorNormal="#FFB805"
+        fab:menu_colorPressed="#F2AB00"
+        fab:menu_colorRipple="#D99200"
+        fab:menu_fab_hide_animation="@anim/jump_to_down"
+        fab:menu_fab_show_animation="@anim/jump_from_down"
+        fab:menu_labels_style="@style/MenuLabelsStyle"
+        fab:menu_shadowColor="#444">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_write"
+            style="@style/MenuButtonsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/write"
+            fab:fab_label="分享"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_answer"
+            style="@style/MenuButtonsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/answer"
+            fab:fab_label="回答"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_ask"
+            style="@style/MenuButtonsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/question"
+            fab:fab_label="提问"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+</FrameLayout>

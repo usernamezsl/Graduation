@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tran0">#00000000</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="searchmenu">#4BA1EE</color>
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="gray">#edeff2</color>
+    <color name="menubackground">#fafafa</color>
+    <color name="black">#000000</color>
+    <color name="colorText">#2c2c2c</color>
+    <color name="colorCard">#ffffff</color>
+    <color name="read">#FF0000</color>
+    <color name="black_bg">#d0000000</color>
+    <color name="comment_reply">#9ba4a3</color>
+    <color name="colorBackground">#eeeeee</color>
+</resources>

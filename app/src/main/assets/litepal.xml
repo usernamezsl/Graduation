@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Graduation"></dbname>
+    <version value="35"></version>
+    <list>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.ThemeResourc"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.Subject"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.Comment"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.Draught"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.MyCollectorOne"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.HomeData"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.Focus"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.MyStudyCollection"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.entity.Answer"></mapping>
+        <mapping class="me.jessyan.mvparms.graduation.mvp.model.api.User"></mapping>
+    </list>
+</litepal>

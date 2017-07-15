@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <FrameLayout
+        android:id="@+id/ll_detail_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:id="@+id/tv_detail_bottom_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:drawableTop="@mipmap/ic_daily_like"
+                android:text="点赞"
+                android:textColor="#a9a9a9"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/tv_detail_bottom_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:drawableTop="@mipmap/ic_daily_comment"
+                android:text="评论"
+                android:textColor="#a9a9a9"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/tv_detail_bottom_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:drawableTop="@mipmap/ic_daily_share"
+                android:text="分享"
+                android:textColor="#a9a9a9"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="top"
+            android:background="#e8e8e8"/>
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsv_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <FrameLayout
+            android:id="@+id/webview_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<WebView-->
+                <!--android:id="@+id/wv_detail_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:isScrollContainer="false"-->
+                <!--android:overScrollMode="never"-->
+                <!--android:scrollbars="vertical"/>-->
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

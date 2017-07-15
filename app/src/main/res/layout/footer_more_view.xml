@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/night_model"
+        style="@style/top_layout"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_night"
+            style="@style/usertext"
+            android:layout_marginLeft="8dp"
+            android:text="夜间模式"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:src="@drawable/ic_shut"
+            android:id="@+id/img_night"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/setup"
+        style="@style/top_layout"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:src="@drawable/setup"
+            android:id="@+id/img_setup"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_setup"
+            style="@style/usertext"
+            android:layout_marginLeft="8dp"
+            android:text="设置"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/searchmenu"/>
+</LinearLayout>

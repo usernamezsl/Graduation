@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        //沉浸状态栏
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="top_layout" parent="base_layout">
+        <item name="android:background">@drawable/top_layout_selector</item>
+    </style>
+
+    <style name="base_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="usertext">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MenuButtonsSmall">
+        <item name="fab_size">mini</item>
+        <item name="fab_shadowColor">#26000000</item>
+        <item name="fab_colorNormal">@color/menubackground</item>
+        <item name="fab_colorPressed">#ffE5E5E5</item>
+        <item name="fab_colorRipple">#33000000</item>
+    </style>
+
+    <style name="AppTheme_Dark_Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <!--<style name="TextAppearance.ExpandedTitle">-->
+        <!--parent="TextAppearance.AppCompat.Widget.ActionBar.Title">-->
+        <!--<item name="android:textSize">26sp</item>-->
+    <!--</style>-->
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background" >@drawable/text_color_gr</item>
+    </style>
+
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <color name="iron">#cccccc</color>
+    <color name="primary">#e43f3f</color>
+</resources>
